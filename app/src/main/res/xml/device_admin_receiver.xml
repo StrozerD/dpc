@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_name">
+    <uses-policies>
+        <wipe-data />
+        <force-lock />
+
+        <!-- Параметры для развертывания рабочего профиля -->
+<!--        <install-system-update />-->
+<!--        <install-remote-app />-->
+<!--        <install-unmanaged-profile />-->
+        <!-- Другие параметры, необходимые в вашем случае -->
+    </uses-policies>
+</device-admin>
